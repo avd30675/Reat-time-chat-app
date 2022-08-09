@@ -41,13 +41,3 @@
 2. libsignal-protocol.js (also from Signal Github) implements the protocol
 3. Signal Gateway - Created by me to integrate React with Signal. It performs the Initialization, Encryption and Decryption functionality when required on Frontend. Check the file in src/signal/SignalGateway.js for detailed code.
 
-**Note:** If you do not clear local storage, then you can recover your old conversations post re-login since these are saved in their respective decrypted form. No data is stored on the server. Kindly view the tutorial for more details.
-
-## Resources
-1. [Complete YouTube Tutorial for this project](https://www.youtube.com/watch?v=gNbdgIznjhU&ab_channel=QED42)
-2. [Complete Blog for this project](https://www.qed42.com/blog/developing-real-time-secure-chat-application-like-whatsapp-or-signal-with-end-end-encryption)
-3. [Backend - NodeJS](https://github.com/VertikaJain/node-express-ts-chat-app)
-4. [Signal Protocol in JavaScript Github](https://github.com/signalapp/libsignal-protocol-javascript)
-5. [Why Axios](https://medium.com/@MinimalGhost/what-is-axios-js-and-why-should-i-care-7eb72b111dc0)
-6. [ReactJS](https://reactjs.org/)
-7. [Web Sockets API](https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API)
